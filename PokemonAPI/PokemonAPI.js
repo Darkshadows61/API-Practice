@@ -1,5 +1,5 @@
-//Local on the 8's
-fetch('https://api.weather.gov/')
+//Pokemon
+fetch('')
 .then(res => res.json())
     .then(data => {
         console.log(data)
