@@ -1,0 +1,9 @@
+/*css*/
+*{
+    box-sizing: border-box;
+    clear: both;
+}
+#p1avatar, #p2avatar {
+    height: 10%;
+    width: 10%;
+}

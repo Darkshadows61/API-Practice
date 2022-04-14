@@ -2,4 +2,14 @@
 *{
     box-sizing: border-box;
     clear: both;
+    background: darkblue;
+    color: white;
+}
+#headerImg{
+    height: 10%;
+    width: 10%;
+}
+#output img{
+    height: 5%;
+    width: 5%;
 }

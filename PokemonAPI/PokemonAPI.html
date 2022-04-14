@@ -8,9 +8,31 @@
         <title>Pokemon</title>
     </head>
     <body>
-        <h1>Pokemon</h1>
-        <h2>Powered by:</h2>
-        <p></p>
+        <header>
+
+        </header>
+
+        <main>
+            <section id="search">
+                <h1>Search the Pokedex</h1>
+                <img id='headerImg' src="https://pa1.narvii.com/6018/3f6b42562d78b7a7673f6decb69eec5d7bef86f8_hq.gif" alt="Sabrina"> 
+                <br><input type="text" name="pokemon" id="pokemon" value="">
+                <button>Go!</button></br>
+            </section>
+            <section id="output">
+                #<span id="pokeNum"></span> <!--data.id-->
+                <h3 id="pokeName"></h3> <!--data.name-->
+                <img id="pokeImgFront" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/094.png"> <!--data.sprites-->
+                <img id="pokeImgBack" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/094.png"> <!--data.sprites-->
+                <p>Type: <span id="pokeTypes"></span></p> <!--data.types-->
+                <p>Ability: <span id="pokeAbilities"></span></p> <!--data.abilities-->
+                <p>Moves: <span id="pokeMoves"></span></p> <!--data.moves-->
+            </section>
+        </main>
+
+        <footer>
+            <h2>Powered by: <a href="www.pokemonapi.com">Pokemon API</a></h2>
+        </footer>
     </body>
     <script src="PokemonAPI.js"></script>
 </html>
